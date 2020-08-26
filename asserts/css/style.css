@@ -146,11 +146,15 @@ input:focus {
   transform: rotate(-45deg) translateX(-3px);
 }
 .language {
-  border: none;
   color: #314584;
   font-weight: 600;
   font-size: 1rem;
   line-height: 2.1rem;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -ms-appearance: none;
 }
 .button {
   color: #ff3946;
