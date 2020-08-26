@@ -189,6 +189,7 @@ input:focus {
 }
 .block1__title {
   font-weight: 600;
+  margin-bottom: 1.3rem;
 }
 .block1__control {
   display: flex;
