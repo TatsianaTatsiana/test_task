@@ -39,7 +39,6 @@ for (link of linkElements) {
     event.preventDefault();
 
     let blockId = this.getAttribute('data-scroll');
-    console.log(blockId, '///blockId');
     let searchedBlock = document.querySelector(blockId);
 
     let blockOffset = searchedBlock.getBoundingClientRect().top;
